@@ -37,7 +37,7 @@ PlacesBeen.prototype.deletePlace = function(id) {
   return false;
 }
 
-PlacesBeen.prototype.updatePlace = function(id, )
+PlacesBeen.prototype.updatePlace = function(id, dest )
 
 // Business Logic Locations
 
@@ -48,4 +48,7 @@ function Places(destLocation, destLandmarks, timeOfYear, destNotes) {
   this.destNotes = destNotes;
 }
 
+PlacesBeen.prototype.Places = function() {
+  return this.destLocation + " " + this.destLandmarks + " " + this.timeOfYear + " " + this.destNotes;
+}
 // User Interface
