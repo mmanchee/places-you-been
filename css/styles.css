@@ -5,10 +5,9 @@
   background: rgb(131,58,180);
   background: linear-gradient(352deg, rgba(131,58,180,1) 0%, rgba(66,29,253,0.6596306068601583) 65%, rgba(252,176,69,1) 100%);
 }
-#destinationResult{
-  display: none;
-}
+
 .second{
+  display: none;
   opacity: 90%;
   background: rgb(255,175,28);
   background: linear-gradient(22deg, rgba(255,175,28,0.7678100263852243) 13%, rgba(65,28,255,0.7678100263852243) 23%, rgba(147,48,196,1) 35%, rgba(146,208,77,0.6517150395778364) 50%, rgba(77,208,197,0.6517150395778364) 66%, rgba(15,59,55,0.6517150395778364) 83%);
@@ -17,7 +16,8 @@
 body {
   background: url('../img/bgimage.jpg');
 }
-
+/*
 .row {
   display: none;
 }
+*/

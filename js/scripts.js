@@ -91,7 +91,7 @@ function newPlaces(destLocation, destLandmarks, timeOfYear, destNotes) {
   let note = "<div class=col-3>" + destNotes + "</div>";
   let title = "<div onclick=showHide(" + last + ")>" + name + "</div>";
 
-  let result = title + "<div id=location" + last + " class=row><div class=col-3>" + name + land + time + note + "</div></div>";
+  let result = title + "<div id=location" + last + " class=row>" + name + land + time + note + "</div>";
 
   return result;
 }
@@ -112,9 +112,9 @@ $(document).ready(function() {
     let input4 = $("input#notesInput").val();
 
     let result = newPlaces(input1, input2, input3, input4);
-    alert(result);
-    $("#destinationResult").html(result);
+    // alert(result);
+    $("#destinationResult").append(result);
 
-    $("#destinationResult").toggle();
+    $(".second").show();
   });
 });
