@@ -1,16 +1,16 @@
 // Business Logic PlacesBeen
 function PlacesBeen () {
-  this.places;
+  this.places = [];
   this.currentId = 0;
 }
 
 PlacesBeen.prototype.addPlace = function(place) {
   place.id = this.assignId();
-  this.places.push(places);
+  this.places.push(place);
 }
 
 PlacesBeen.prototype.assignId = function(){
-  this.currentId +=1;
+  this.currentId += 1;
   return this.currentId;
 }
 
@@ -22,7 +22,7 @@ PlacesBeen.prototype.findPlace = function(id) {
       }
     }
   };
-  return false:
+  return false;
 }
 
 PlacesBeen.prototype.deletePlace = function(id) {
@@ -37,7 +37,7 @@ PlacesBeen.prototype.deletePlace = function(id) {
   return false;
 }
 
-PlacesBeen.prototype.updatePlace = function(id, dest )
+//PlacesBeen.prototype.updatePlace = function(id, dest ) {}
 
 // Business Logic Locations
 
