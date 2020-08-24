@@ -10,6 +10,31 @@
   <title>Places You've Been</title>
 </head>
 <body>
-  
+  <div class="container">
+    <h1>Welcome to Destination Info Site!</h1>
+    <form id="destinationSite">
+      <div>
+        <label for="destinationInput">Please Enter Destination Name:</label>
+        <input id="destinationInput" class="form-control" type="text">
+      </div>
+      <div>
+        <label for="landmarksInput">Please Enter Destination Landmarks:</label> 
+        <input id="landmarksInput" class="form-control" type="text">
+      </div>
+      <div>
+        <label for="timeInput">Time of year to travel:</label>
+        <input id="timeInput" class="form-control" type="text">
+      </div>
+      <div>
+        <label for="notesInput">Destination Notes:</label>
+        <input id="notesInput" class="form-control" type="text">
+      </div>
+      <button type="submit" class="btn-success">Add to Result!</button>
+    </form>
+  </div>
+  </br> 
+  <div id="destinationResult" class="container second">
+    <p>output</p>
+  </div>
 </body>
 </html>
